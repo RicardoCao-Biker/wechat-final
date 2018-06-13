@@ -1,0 +1,178 @@
+body{
+	font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+	margin:0;
+	background-color:#F8F9FB;
+}
+#topnav{
+	height: 60px;
+	padding: 0 40px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(150,150,150,0.3)
+}
+.logo{
+	float: left;
+	display: block;
+    width: 259px;
+    height: 28px;
+    overflow: hidden;
+    text-decoration: none;
+    margin:15px 0 0 0;
+    color:grey;
+    background-image:url(http://res.wx.qq.com/wxopenres/zh_CN/htmledition/comm_htmledition/style/base/layout_head_z_@all3890d1.png);
+	cursor:pointer;
+}
+.topnav_right{
+	position: absolute;
+    right: 40px;
+    display: inline-block;
+    font-size: 16px;
+    z-index: 9;
+}
+.topnav_right li{
+	height:60px;
+	width:60px;
+	list-style: none;
+    float: left;
+    cursor:pointer;
+    line-height: 60px;
+    text-align: center;
+}
+.topnav_right ul{
+	width: 240px; 
+    overflow: hidden;
+    white-space:nowrap; 
+    margin:0;
+}
+.notice{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 60px;
+    overflow: hidden;
+    cursor:pointer;
+	background:url(http://res.wx.qq.com/wxopenres/zh_CN/htmledition/comm_htmledition/style/base/layout_head_z_@all3890d1.png) 0 -32px no-repeat;
+}
+.noticenum{
+	width:16px;
+	height:16px;
+	border-radius: 8px;
+	position:absolute;
+	background-color: #ff5027;
+	font-size: 10px;
+	line-height: 16px;
+	color:white;
+	top:14px;
+	right:78px;
+}
+.underline:hover{
+	border-bottom:5px solid grey;
+}
+.leftside{
+	width:256px;
+	position:absolute;
+	left:0;
+	border-right:solid 1px #e7e7eb;
+	margin-top: 30px;
+}
+#sidenav{
+	width:256px;
+	
+}
+.menu_title{
+	height:40px;
+	border-left:5px solid transparent;
+	margin-bottom: 10px;
+	line-height:40px;
+	color:black;
+	font-size: 14px;
+	cursor:pointer;
+}
+.menu_title:hover{
+	border-left:5px solid #1aad19;
+	background-color:#EFF1F3;
+}
+.menu_title a{
+	display: block;
+    padding: 0 34px 0;
+    color: #353535;
+    text-decoration: none;
+}
+.menu_title a::before{
+	content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.menu_home a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -866px no-repeat;
+}
+.menu_dev a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -894px no-repeat;
+}
+.menu_id a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -922px no-repeat;
+}
+.menu_data a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -950px no-repeat;
+}
+.menu_notice a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -978px no-repeat;
+}
+.menu_server a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -1062px no-repeat;
+}
+.menu_neibor a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -1090px no-repeat;
+}
+.menu_center a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -1146px no-repeat;
+}
+.menu_ad a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -1118px no-repeat;
+}
+.menu_setting a::before{
+	background: url(http://www.ricofishing.com/icon.png) 0 -1006px no-repeat;
+}
+.main{
+	position:absolute;
+	left: 256px;
+	width:calc(100% - 256px);
+	margin: 40px 0 120px 0;
+/*	background-color: red;*/
+}
+#bottomnav{
+	color:grey;
+	position:absolute;
+	bottom:-100px;
+	left:100px;
+	padding:10px;
+	border-top: solid 1px #EFF1F3;
+}
+#bottomnav span{
+	margin-right: 20px;
+	cursor:pointer;
+}
+#bottomnav span:last-child{
+	margin-left: 60px;
+}
+.hidenews{
+	width:100px;
+	border:solid 1px #EFF1F3;
+	border-radius: 8px;
+	position:absolute;
+	top:70px;
+	left:140px;
+	z-index:100;
+	background-color: white;
+}
+.hidenews div{
+	height:35px;
+	line-height: 35px;
+	padding-bottom: 5px;
+}
+.hidenews div:hover{
+	background-color: #EFF1F3;
+}

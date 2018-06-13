@@ -1,0 +1,53 @@
+.addmain{
+	width:100%;
+}
+.addcenter{
+	width:960px;
+	margin:0 auto;
+}
+.adduser_title{
+	font-size:24px;
+	margin:30px 0;
+}
+.addtablebg{
+	width:100%;
+	background-color:white;
+}
+.addtable{
+	width:560px;
+	margin:0 auto;
+	display:grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows:80px auto;
+	align-items: center
+}
+.adduser_inputname{
+	width:200px;
+	height:35px;
+}
+.adduser_checkbox{
+	display:grid;
+	grid-template-columns: 5fr 1fr;
+	grid-template-rows:50px 50px 50px 50px 50px 50px;
+}
+.adduser_setitle{
+	background-color:#f6f8f9;
+	color:grey;
+
+}
+.adduser_checkbox div{
+	border-bottom: solid 1px #f6f8f9;
+	align-items: center;
+	line-height: 50px;
+}
+.adduser_confirm{
+	margin:50px 400px;
+	background-color:#1aad19;
+	border:0;
+	color:white;
+	border-radius: 5px;
+	width:100px;
+	height:35px;
+	cursor:pointer;
+	display: inline-block;
+}
